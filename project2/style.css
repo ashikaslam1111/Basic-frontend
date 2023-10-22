@@ -1,0 +1,101 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navcontainer {
+    background-color: gray;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menucontainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.mentu_item {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.liit {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+    background-color: rgb(221, 227, 227);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn {
+
+    background-color: rgb(217, 217, 222);
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    color: black;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.but-bnt {
+    background-color: red;
+    color: white;
+}
+
+.baneritem {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-image: url("./asset/image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.description {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.all {
+    width: 100%;
+
+}
+
+.title-digital {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+}
+
+.card {
+    width: 250px;
+    height: 350px;
+    border: solid grey 1px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.cartcontainer {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+

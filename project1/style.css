@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    margin: 0px;
+}
+
+.items_container {
+    display: flex;
+    gap: 20px;
+    list-style: none
+}
+
+.discription {
+    width: 50%;
+font-size: 20px;
+color: rgb(3, 246, 27);
+    margin: auto;
+}
+
+.banner-container {
+    background-image: url("./images/pic1.webp"),linear-gradient(rgba(0,0,0,0.7266),rgba(0,0,0,0.75711));
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;/*  to do it i need to display flex first */
+}
+
+.btn {
+    padding: 20px;
+    border: none;
+    color: black;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.saying{
+    font-size: 20px;
+}
+
+
+.thedev{
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+}
+.dev{
+    border: 5px solid black;
+    height:300px;
+    width: 30%;
+    text-align: center;
+}
+.pic{
+   
+    height:150px;
+    width: 100%;
+} 
